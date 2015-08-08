@@ -1,4 +1,4 @@
-deling (0.8b) saucy; urgency=low
+deling (0.8b) trusty; urgency=low
 
   * Open scripts (JSM file) with peculiar header format
   * testno's chara.one file is now opened correctly

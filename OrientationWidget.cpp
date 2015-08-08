@@ -105,8 +105,8 @@ void OrientationWidget::mousePressEvent(QMouseEvent *e)
 		return;
 	}
 
-	if(isInCircle(e->posF())) {
-		moveCursor(e->posF());
+	if(isInCircle(e->screenPos())) {
+		moveCursor(e->screenPos());
 	}
 }
 
@@ -169,7 +169,7 @@ void OrientationWidget::mouseMoveEvent(QMouseEvent *e)
 		return;
 	}
 
-	if(isInCircle(e->posF())) {
-		moveCursor(e->posF());
+	if(isInCircle(e->screenPos())) {
+		moveCursor(e->screenPos());
 	}
 }

@@ -18,7 +18,8 @@
 #ifndef FSDIALOG_H
 #define FSDIALOG_H
 
-#include <QtGui>
+#include <QtWidgets>
+
 #include "FsArchive.h"
 #include "Config.h"
 #include "FsWidget.h"

@@ -1,7 +1,8 @@
 #ifndef QTASKBARBUTTON_H
 #define QTASKBARBUTTON_H
 
-#include <QtGui>
+#include <QtWidgets>
+
 #ifdef Q_OS_WIN
 #include "shobjidl.h"
 #endif

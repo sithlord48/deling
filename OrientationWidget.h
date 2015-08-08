@@ -18,7 +18,7 @@
 #ifndef ORIENTATIONWIDGET_H
 #define ORIENTATIONWIDGET_H
 
-#include <QtGui>
+#include <QtWidgets>
 
 class OrientationWidget : public QWidget
 {
